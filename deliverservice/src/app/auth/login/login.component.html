@@ -1,0 +1,36 @@
+<div id="sign-in1" class="row">
+  <div id="sign-in" class="col-md-4 offset-md-3">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="inputEmail" class="text-right">Email Address:</label>
+        <input
+          type="email"
+          id="inputEmail"
+          class="form-control"
+          placeholder="Email address"
+          formControlName="email"
+        />
+        <label for="inputPassword">Password:</label>
+        <input
+          type="password"
+          id="inputPassword"
+          class="form-control"
+          formControlName="password"
+          placeholder="Password"
+        />
+      </div>
+      <button
+        type="submit"
+        class="btn btn-success"
+        [disabled]="!loginForm.valid"
+      >
+        Signin
+      </button>
+      <hr />
+      <p>Don't You Have Account?Please sign up</p>
+      <button type="button" class="btn btn-info" (click)="signUp()">
+        Signup
+      </button>
+    </form>
+  </div>
+</div>

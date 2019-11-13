@@ -1,0 +1,91 @@
+<div class="container">
+  <h1>Shipping</h1>
+  <div class="row">
+    <div class="col-md-6">
+      <form [formGroup]="addressForm" (ngSubmit)="onSubmit()">
+        <div class="row">
+          <div class="col-md-10">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                id="NameInput"
+                class="form-control"
+                formControlName="name"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10">
+            <div class="form-group">
+              <label for="pincode">Pincode:</label>
+              <input
+                type="text"
+                id="NameInput"
+                class="form-control"
+                formControlName="pincode"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10">
+            <div class="form-group">
+              <label for="city">City:</label>
+              <input
+                type="text"
+                id="cityInput"
+                class="form-control"
+                formControlName="city"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10">
+            <div class="form-group">
+              <label for="city">State:</label>
+              <input
+                type="text"
+                id="stateInput"
+                class="form-control"
+                formControlName="state"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10">
+            <div class="form-group">
+              <label for="landmark">Landmark:</label>
+              <input
+                type="text"
+                id="cityInput"
+                class="form-control"
+                formControlName="landmark"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10">
+            <button
+              class="btn btn-info space"
+              type="submit"
+              [disabled]="!addressForm.valid"
+            >
+              Deliver to this address
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <h1>Order Summery</h1>
+      <div>ProductName : {{ product.name }}</div>
+      <hr />
+      <div>Total Price: {{ product.productPrice | currency: USD }}</div>
+    </div>
+  </div>
+</div>

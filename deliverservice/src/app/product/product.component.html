@@ -1,0 +1,24 @@
+<div class="row productrow">
+  <div class="col-md-12">
+    <img
+      [src]="product.imagePath"
+      alt="product.name"
+      class="img-responsive"
+      style="max-height: 100px;"
+    />
+  </div>
+
+  <div class="col-md-12">
+    <h1>{{ product.name }}</h1>
+  </div>
+
+  <div class="col-md-12">
+    {{ product.description }}
+  </div>
+
+  <div class="col-md-12">
+    <button type="button" class="btn btn-primary" (click)="onCheckOut()">
+      CheckOut
+    </button>
+  </div>
+</div>

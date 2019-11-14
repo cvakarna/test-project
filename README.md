@@ -1,3 +1,7 @@
+  ###### Demo
+  
+  ![demo](https://user-images.githubusercontent.com/34210823/68818908-8e507300-06ac-11ea-85e3-6823e23996ae.gif)
+
 # test-project
 This repository contains two projects .net core and angular
 
@@ -24,9 +28,7 @@ This repository contains two projects .net core and angular
   #### Running the deliverservice Client App
   1. Run the command to start the application in dev mode **ng serve**
   
-  ###### Demo
-  
-  ![demo](https://user-images.githubusercontent.com/34210823/68818908-8e507300-06ac-11ea-85e3-6823e23996ae.gif)
+
   
 
  

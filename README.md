@@ -24,4 +24,8 @@ This repository contains two projects .net core and angular
   #### Running the deliverservice Client App
   1. Run the command to start the application in dev mode **ng serve**
   
+  ###### landing page of application
+  
+  ![landingpage](https://user-images.githubusercontent.com/34210823/68817854-0452db00-06a9-11ea-9370-6c8bf538323e.png)
+ 
  

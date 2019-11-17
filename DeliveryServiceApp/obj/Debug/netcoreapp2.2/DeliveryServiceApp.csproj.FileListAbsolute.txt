@@ -26,3 +26,17 @@ D:\siva\learning\Projects\DotNetCore\TestProject\DeliveryServiceApp\obj\Debug\ne
 D:\siva\learning\Projects\DotNetCore\TestProject\DeliveryServiceApp\obj\Debug\netcoreapp2.2\DeliveryServiceApp.RazorTargetAssemblyInfo.cache
 D:\siva\learning\Projects\DotNetCore\TestProject\DeliveryServiceApp\obj\Debug\netcoreapp2.2\DeliveryServiceApp.dll
 D:\siva\learning\Projects\DotNetCore\TestProject\DeliveryServiceApp\obj\Debug\netcoreapp2.2\DeliveryServiceApp.pdb
+D:\projects\11\test-project\DeliveryServiceApp\bin\Debug\netcoreapp2.2\DeliveryServiceApp.deps.json
+D:\projects\11\test-project\DeliveryServiceApp\bin\Debug\netcoreapp2.2\DeliveryServiceApp.runtimeconfig.json
+D:\projects\11\test-project\DeliveryServiceApp\bin\Debug\netcoreapp2.2\DeliveryServiceApp.runtimeconfig.dev.json
+D:\projects\11\test-project\DeliveryServiceApp\bin\Debug\netcoreapp2.2\DeliveryServiceApp.dll
+D:\projects\11\test-project\DeliveryServiceApp\bin\Debug\netcoreapp2.2\DeliveryServiceApp.pdb
+D:\projects\11\test-project\DeliveryServiceApp\obj\Debug\netcoreapp2.2\DeliveryServiceApp.csproj.CoreCompileInputs.cache
+D:\projects\11\test-project\DeliveryServiceApp\obj\Debug\netcoreapp2.2\DeliveryServiceApp.RazorAssemblyInfo.cache
+D:\projects\11\test-project\DeliveryServiceApp\obj\Debug\netcoreapp2.2\DeliveryServiceApp.RazorAssemblyInfo.cs
+D:\projects\11\test-project\DeliveryServiceApp\obj\Debug\netcoreapp2.2\DeliveryServiceApp.AssemblyInfoInputs.cache
+D:\projects\11\test-project\DeliveryServiceApp\obj\Debug\netcoreapp2.2\DeliveryServiceApp.AssemblyInfo.cs
+D:\projects\11\test-project\DeliveryServiceApp\obj\Debug\netcoreapp2.2\DeliveryServiceApp.RazorTargetAssemblyInfo.cache
+D:\projects\11\test-project\DeliveryServiceApp\obj\Debug\netcoreapp2.2\DeliveryServiceApp.dll
+D:\projects\11\test-project\DeliveryServiceApp\obj\Debug\netcoreapp2.2\DeliveryServiceApp.pdb
+D:\projects\11\test-project\DeliveryServiceApp\obj\Debug\netcoreapp2.2\DeliveryServiceApp.csprojAssemblyReference.cache

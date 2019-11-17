@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\siva\\learning\\Projects\\DotNetCore\\TestProject\\DeliveryServiceApp\\DeliveryServiceApp.csproj": {}
+    "D:\\projects\\11\\test-project\\DeliveryServiceApp\\DeliveryServiceApp.csproj": {}
   },
   "projects": {
-    "D:\\siva\\learning\\Projects\\DotNetCore\\TestProject\\DeliveryServiceApp\\DeliveryServiceApp.csproj": {
+    "D:\\projects\\11\\test-project\\DeliveryServiceApp\\DeliveryServiceApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\siva\\learning\\Projects\\DotNetCore\\TestProject\\DeliveryServiceApp\\DeliveryServiceApp.csproj",
+        "projectUniqueName": "D:\\projects\\11\\test-project\\DeliveryServiceApp\\DeliveryServiceApp.csproj",
         "projectName": "DeliveryServiceApp",
-        "projectPath": "D:\\siva\\learning\\Projects\\DotNetCore\\TestProject\\DeliveryServiceApp\\DeliveryServiceApp.csproj",
+        "projectPath": "D:\\projects\\11\\test-project\\DeliveryServiceApp\\DeliveryServiceApp.csproj",
         "packagesPath": "C:\\Users\\Bizruntime-94\\.nuget\\packages\\",
-        "outputPath": "D:\\siva\\learning\\Projects\\DotNetCore\\TestProject\\DeliveryServiceApp\\obj\\",
+        "outputPath": "D:\\projects\\11\\test-project\\DeliveryServiceApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -78,6 +78,26 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

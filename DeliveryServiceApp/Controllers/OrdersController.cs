@@ -10,6 +10,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using Serilog;
+using Serilog.Core;
 
 namespace DeliveryServiceApp.Controllers
 {
@@ -29,11 +31,12 @@ namespace DeliveryServiceApp.Controllers
         {
             try
             {
+                Log.Information("CustomerId :{0},Distence:{1}",customerId,distence);
                 return await _orderService.GetProductCostAsync(customerId, distence);
             }
             catch(Exception ex)
             {
-                Console.WriteLine("Exception Occured in OrdersController",ex.ToString());
+                Log.Error(ex, "CustomerId :{0},Ditence:{1}",customerId,distence);
                 throw;
             }
              
@@ -57,7 +60,7 @@ namespace DeliveryServiceApp.Controllers
             }
             catch(Exception ex)
             {
-                Console.WriteLine("Exception in OrdersController",ex.ToString());
+                Log.Error(ex, "ProductOrder:{product}", productOrder);
                 throw;
             }
             
